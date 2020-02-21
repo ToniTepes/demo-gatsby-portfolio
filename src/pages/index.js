@@ -25,28 +25,27 @@ import ProjectPreview from '../components/project-preview';
 // `;
 
 export const query = graphql`
-  {
-    allSanityProject {
-      edges {
-        node {
-          title
-          description
-          slug {
-            current
-          }
-          url
-          image {
-            publicURL
-            asset {
-              fluid {
-                ...GatsbySanityImageFluid
-              }
+{
+  allSanityProject {
+    edges {
+      node {
+        title
+        description
+        slug {
+          current
+        }
+        url
+        image {
+          asset {
+            fluid {
+              ...GatsbySanityImageFluid
             }
           }
         }
       }
     }
   }
+}
 `;
 
 export default ({ data }) => (
