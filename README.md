@@ -14,7 +14,12 @@ What I did!
 
 3. Clone
 
-4. Yarn install
+4. Install Dependicies
+    Yarn
+      yarn install
+    Sanity
+      yarn global add @sanity/cli
+
 
 5. Git push
     It worked!
