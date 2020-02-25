@@ -29,6 +29,7 @@ What I did!
 
 7. Followed instructions until 22:55
     Had issues finding <publicURL> in the (Ctrl+space) options in GraphiQL ecosystem.
+      Seems as if <publicURL> is deprecated.
 
     ie.
     {
@@ -74,6 +75,4 @@ What I did!
 
   Run in GraphiQL!
 
-  8.
-
-
+  8. Time to customize!
